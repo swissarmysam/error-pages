@@ -1,4 +1,4 @@
-# error-pages
+# ERROR PAGES
 
 Responsive error pages ready to roll in your project.
 
