@@ -1,0 +1,53 @@
+/* IMPORT TYPEFACE */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/* EDIT THIS VALUE TO CHANGE THEME COLOR */
+:root {
+    --theme-color: #e0e0e0;
+}
+
+/* STYLES FOR ALL DEVICES */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--theme-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+div {
+    text-align: center;
+}
+
+/* DESKTOPS & TABLETS */
+
+h1 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 3.25rem;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1.75rem;
+}
+
+
+
+/* MOBILES */
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+}
+
